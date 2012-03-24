@@ -3993,3 +3993,22 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+
+.footerTeams{
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+  float: left;
+}
+.Teams{
+    margin-top: 10px;
+    color: #9d9d9d;
+}
+
+.Teams p {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+}

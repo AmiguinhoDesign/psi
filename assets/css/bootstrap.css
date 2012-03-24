@@ -4002,13 +4002,30 @@ a.thumbnail:hover {
   float: left;
 }
 .Teams{
-    margin-top: 10px;
-    color: #9d9d9d;
+    margin-top: 20px;
+    color: #fafafa;
+    margin-bottom: 10px;
 }
 
 .Teams p {
     margin-top: 10px;
     font-weight: bold;
-    width: 25%;
+    width: 22%;
     float: left;
+}
+
+.footerText{
+    color:white;
+    width: 60%;
+    float: left;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.footerAdv{
+    width: 40%;
+    float: left;
+    height: 60px;
+    color:white;
+    margin-bottom: 10px;
 }

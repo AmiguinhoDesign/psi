@@ -40,33 +40,23 @@
           </a>
           <a class="brand" href="./index.html">Bootstrap</a>
           <div class="nav-collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="./index.html">Overview</a>
-              </li>
-              <li class="">
-                <a href="./scaffolding.html">Scaffolding</a>
-              </li>
-              <li class="active">
-                <a href="./base-css.html">Base CSS</a>
-              </li>
-              <li class="">
-                <a href="./components.html">Components</a>
-              </li>
-              <li class="">
-                <a href="./javascript.html">Javascript plugins</a>
-              </li>
-              <li class="">
-                <a href="./less.html">Using LESS</a>
-              </li>
-              <li class="divider-vertical"></li>
-              <li class="">
-                <a href="./download.html">Customize</a>
-              </li>
-              <li class="">
-                <a href="./examples.html">Examples</a>
-              </li>
-            </ul>
+               <ul class="nav nav-pills">
+                <li class="active"><a href="#">Regular link</a></li>
+                <li class="dropdown" id="menu1">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                Dropdown
+                <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                </ul>
+                </li>
+                ...
+              </ul>
           </div>
         </div>
       </div>
@@ -90,8 +80,6 @@
     </ul>
   </div>
 </header>
-
-
 <!-- Typography
 ================================================== -->
 <section id="typography">

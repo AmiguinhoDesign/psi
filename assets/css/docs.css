@@ -276,12 +276,12 @@ hr.soften {
 -------------------------------------------------- */
 .footer {
   margin-top: 45px;
-  height: 120px;
-  padding: 35px 0 36px;
+ 
+  color: white;padding: 35px 0 36px;
   border-top: 1px solid #e5e5e5;
 }
 .footer p {
- color: #fafafa;
+ color: white;
  margin-bottom: 0;
   
 }
